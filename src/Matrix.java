@@ -142,6 +142,11 @@ public class Matrix {
 		placeShip(fieldOne,cruzador);
 		placeShip(fieldOne,portaAvioes);
 		
+		// Reinicia a quantidade de navios
+		submarino.amount = 3;
+		cruzador.amount = 2;
+		portaAvioes.amount = 1;
+		
 		// Posiciona navios no tabuleiro do jogador 2
 		placeShip(fieldTwo,submarino);
 		placeShip(fieldTwo,cruzador);
